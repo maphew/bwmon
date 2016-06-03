@@ -38,6 +38,15 @@ A simple shell script designed to run on linux powered routers
 	- *error getting response: Connection reset by peer* - add the following option `--no-check-certificate`
 	- Or download the file from the web-site and copy to the folder.
 
+##*Configuration*
+`{install_dir}/macnames` - CSV lookup file of Machine network card addresses to Computer names
+
+    E8:50:8B:DF:EE:FE,A-phone
+    00:1B:FC:44:AC:42,dell-laptop
+    00:27:09:F2:26:F4,Wii
+    BC:5F:F4:E9:FC:10,server
+    88:53:95:8B:1F:92,iPhone-2
+
 
 ##*Build Instructions:*
 - Install NodeJS
